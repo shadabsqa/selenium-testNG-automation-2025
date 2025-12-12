@@ -16,7 +16,7 @@ public class SandboxCheckboxTest extends BaseTest {
         SandboxCheckboxPage sandboxCheckboxPage = new SandboxCheckboxPage(driver);
         sandboxCheckboxPage.selectCheckbox(1);
 //        sandboxCheckboxPage.selectCheckbox(3);
-        assertTrue(sandboxCheckboxPage.checkboxIsSelected(2), "Checkbox is not selected.");
+        assertTrue(sandboxCheckboxPage.checkboxIsSelected(1), "Checkbox is not selected.");
     }
 
 

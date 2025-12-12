@@ -1,8 +1,8 @@
 <suite name="AutomationSuite">
     <!--    parallel="tests" thread-count="2"-->
     <listeners>
-        <listener class-name="org.example.retryanalyzer.AnnotationTransformer"/>
-        <!--        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>-->
+        <!--        <listener class-name="org.example.retryanalyzer.AnnotationTransformer"/>-->
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
 
     </listeners>
 
@@ -53,9 +53,15 @@
     <!--        </classes>-->
     <!--    </test>-->
 
-    <test name="SandboxCheckboxTest">
-        <classes>
-            <class name="org.example.testcases.SandboxCheckboxTest"/>
+    <!--    <test name="SandboxCheckboxTest">-->
+    <!--        <classes>-->
+    <!--            <class name="org.example.testcases.SandboxCheckboxTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <test name="OrangeHRMLoginTest">
+        <classes>z
+            <class name="org.example.testcases.OrangeHRMLoginTest"/>
         </classes>
     </test>
 
